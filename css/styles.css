@@ -170,6 +170,7 @@ p{
 }
 .Gmail{
 	float: right;
+	margin-left: 10px;
 	margin-top: 30px;
 	width: 25%;
 }
