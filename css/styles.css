@@ -9,12 +9,12 @@ h1{
 	margin-top: 0;
 	margin-bottom: 0;
 	font-family: 'Lobster', cursive;
-	color: #21bf73;
+	color: #347474;
 	/* line-height: 2; */
 }
 h2{
 	font-family: 'Fredoka One', cursive;
-	color: #21bf73;
+	color: #347474;
 	/* line-height: 2; */
 }
 p{
@@ -64,6 +64,7 @@ p{
 
 /* Mid Container */
 .mid-Container{
+	background-color: #333333;
 	font-size: 1.3rem;
 	text-align: left;
 	padding-top: 100px;
@@ -72,9 +73,38 @@ p{
 	border-style: dotted none none none;
   border-width: .40em 0 0 0;
   border-color: gray;
-  width: 15%;
+	width: 15%;
+	clear: both;
+}
+
+
+/* Mid Container1 */
+.mid-container1{
+	background-color: #333333;
+	padding-top: ;
+}
+
+/* Mid Container 2 */
+.mid-container2{
+	background-color: #ffffff;
+	padding-top: 20px;
+}
+
+/* Mid Container 3 */
+.mid-container3{
+	background-color: #e1f4f3;
+}
+
+/* Mid Container 4 */
+.mid-container4{
+	background-color: #29a19c;
 }
 .first-p{
+	/* display: inline; */
+	line-height: 2;
+}
+.first-p1{
+	color: #ffffff;
 	/* display: inline; */
 	line-height: 2;
 }
@@ -84,12 +114,16 @@ p{
 	width: 25%;
 }
 .profile{
+	margin: 0 auto;
 	width: 50%;
-	margin: 100px auto;
 }
 .skill-row{
+	margin: 0 auto;
 	width: 50%;
-	margin: 100px auto;
+}
+.skill-row2{
+	margin: 0 auto;
+	width: 50%;
 }
 .web-screen{	
 	float: left;
@@ -104,11 +138,11 @@ p{
 
 /* bat Container */
 .bot-Container{
-	background-color: #21bf73;
+	background-color: #2F4F4F;
+	font-size: 1rem;
 	padding-top: 90px;
 	padding-bottom: 90px;
-	font-size: 1rem;
-	color: #191970;
+	text-align: center;
 }
 .bot-Container a{
 	color: #f6f6f6;
@@ -122,11 +156,16 @@ p{
 .bot-Container p:hover{
 	color: blanchedalmond;
 }
+
+/* Contact Me */
 .contact-me{
 	font-size: 1.3rem;
 	width: 50%;
-	margin: 100px auto;
+	margin: 0 auto;
 	text-align: left;
+}
+.contact-me p{
+	margin-bottom: 0;
 }
 .Gmail{
 	float: right;
