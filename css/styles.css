@@ -20,6 +20,10 @@ h2{
 p{
 	font-family: 'El Messiri', sans-serif;
 }
+a{
+	margin: 0 10px;
+	text-decoration: none;
+}
 
 /* Classes */
 
@@ -146,13 +150,14 @@ p{
 	text-align: center;
 }
 .bot-Container a{
-	color: #f6f6f6;
+	color: #29a19c;
 }
 .bot-Container a:hover{
 	color: blanchedalmond;
+	text-decoration: underline;
 }
 .bot-Container p{
-	color: #f6f6f6;
+	color: #29a19c;
 }
 .bot-Container p:hover{
 	color: blanchedalmond;
